@@ -1,10 +1,11 @@
 <!DOCTYPE html>
 <!--Case Insensitive-->
-<html>
+<html lang="en">
   <head>
     <title>My First Web Page</title>
     <style>
       img {
+        /*CSS - Different Syntax & Can be seperated*/
         width: 500px;
         border-radius: 50px;
         float: left;
@@ -14,12 +15,26 @@
       .username {
         font-weight: bold;
       }
+      em {
+        color: red;
+        font-style: normal;
+      }
     </style>
   </head>
   <body>
-    <img src="images/Garden.jpg" />
+    <!--Choose Type of Heading not by size, but by Hiearchy-->
+    <h1>Heading1</h1>
+    <!--Only one heading is allowed-->
+    <h2>Heading2</h2>
+    <h3>Heading3</h3>
+    <h4>Heading4</h4>
+    <h5>Heading5</h5>
+    <h6>Heading6</h6>
+
+    <img src="images/Garden.jpg" alt="An Image of Garden" />
     <!--alt="" is used to send message when image cannot be loaded-->
-    <p class="username">@dopamine</p>
-    <p>I love to learn HTML</p>
+    <p class="username">@dopamine <em>HTML</em></p>
+    <p>I <b>love</b> to learn <i>HTML</i></p>
+    <p>Test <strong>Let's GO</strong></p>
   </body>
 </html>
